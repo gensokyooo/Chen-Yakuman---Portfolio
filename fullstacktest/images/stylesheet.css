@@ -1,0 +1,53 @@
+body { 
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500px; 
+    background-color: black;
+    color: white; 
+    
+}
+
+h1 {
+    font-size: 1000px;
+}
+.container {
+    text-align: center; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    align-items: center;
+}
+
+.phero {
+    font-size: 15px;
+}
+
+.herotext {
+    letter-spacing: -3px;
+    line-height: 1;
+    font-size: 60px;
+}
+
+.second {
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top ;
+    padding: 90px;
+}
+
+.gallery {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 90px; 
+}
+
+.gallery img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+}
